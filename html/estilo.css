@@ -1,0 +1,48 @@
+body{
+	background: #a4ab80;
+    font-family: fantasy;
+}
+h1{
+	color: #e8e0ae;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 30px
+}
+fieldset{
+    background-color: #f56822;
+    margin-top: 150px;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;
+    border-radius: 15px;
+    border-color: #e8e0ae;
+    border-width: 3px;
+    border-style: solid;
+    
+}
+#formulario label{
+    color: #e8e0ae;
+    font-weight: lighter;
+    font-size: 15px;
+}
+input.campo_chute, input.campo_resp{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #f56822;
+    border-radius: 4px;
+    opacity: 0.5;
+}
+#formulario input.btn_submit{
+    background-color: #5e412f;
+    color: #e8e0ae;
+    border-radius: 10px;
+    border: 2px solid #f56822;
+    font-size: 20px;
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
